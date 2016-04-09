@@ -1,17 +1,5 @@
-[00:23:51] [Server thread/INFO]: mahong lost connection: Disconnected
-[00:23:51] [Server thread/INFO]: mahong left the game.
-[00:45:22] [Server thread/INFO]: mahong[/58.249.112.45:30057] logged in with entity id 290451 at ([world] 164.7269492336678, 68.0, 199.37392173240113)
-[01:31:26] [Netty IO #0/INFO]: <许双sb> h
-[01:31:30] [Netty IO #0/INFO]: <许双sb> shui
-[01:57:18] [Server thread/INFO]: mahong issued server command: /meishitoule
-[02:03:33] [Server thread/INFO]: 许双sb lost connection: Disconnected
-[02:03:33] [Server thread/INFO]: 许双sb left the game.
-[03:06:14] [Server thread/INFO]: mahong lost connection: Disconnected
-[03:06:14] [Server thread/INFO]: mahong left the game.
-[13:11:33] [Server thread/INFO]: mahong[/58.249.112.45:63329] logged in with entity id 415887 at ([world] 167.6379235164438, 68.0, 195.40385650266927)
-[13:24:27] [Server thread/INFO]: 许双sb[/58.249.112.22:35566] logged in with entity id 423269 at ([world] 169.01249998807907, 81.0, 172.69999998807907)
-[13:24:30] [Netty IO #1/INFO]: <许双sb> Damage Indicators was unable to check for updates!
-[14:09:46] [Server thread/INFO]: 许双sb lost connection: Disconnected
-[14:09:46] [Server thread/INFO]: 许双sb left the game.
-[14:10:01] [Server thread/INFO]: mahong lost connection: Disconnected
-[14:10:01] [Server thread/INFO]: mahong left the game.
+[00:44:53] [Server thread/INFO]: 许双sb lost connection: Disconnected
+[00:44:53] [Server thread/INFO]: 许双sb left the game.
+[00:50:37] [Server thread/INFO]: 许双sb[/58.249.112.22:24504] logged in with entity id 233604 at ([world] 163.81809691749854, 68.0, 203.85093821516764)
+[01:34:23] [Server thread/INFO]: 许双sb lost connection: Disconnected
+[01:34:23] [Server thread/INFO]: 许双sb left the game.
