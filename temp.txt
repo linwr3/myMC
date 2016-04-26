@@ -541,3 +541,7 @@ java.io.IOException: Bad file descriptor
 [03:45:24 INFO]: <mahong> cai fa xain
 [03:47:46 INFO]: mahong lost connection: Disconnected
 [03:47:46 INFO]: mahong left the game.
+[00:31:36 INFO]: Stopping server
+[00:31:37 INFO]: Saving players
+[00:31:37 INFO]: Saving worlds
+[00:31:37 INFO]: Saving chunks for level 'world'/Overworld
