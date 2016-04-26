@@ -1,73 +1,216 @@
-[21:25:17] [Server thread/INFO]: Starting minecraft server version 1.7.5
-[21:25:17] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[21:25:17] [Server thread/INFO]: Loading properties
-[21:25:17] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: Bad file descriptor
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.7.0_79]
-	at java.io.FileInputStream.read(FileInputStream.java:272) ~[?:1.7.0_79]
-	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235) ~[?:1.7.0_79]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:254) ~[?:1.7.0_79]
-	at java.io.FilterInputStream.read(FilterInputStream.java:83) ~[?:1.7.0_79]
-	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader$1.read(ConsoleReader.java:167) ~[craftbukkit-1.7.5-R0.1-20140408.020329-16.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:267) ~[craftbukkit-1.7.5-R0.1-20140408.020329-16.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:204) ~[craftbukkit-1.7.5-R0.1-20140408.020329-16.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:995) ~[craftbukkit-1.7.5-R0.1-20140408.020329-16.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:1506) ~[craftbukkit-1.7.5-R0.1-20140408.020329-16.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:1153) ~[craftbukkit-1.7.5-R0.1-20140408.020329-16.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:1117) ~[craftbukkit-1.7.5-R0.1-20140408.020329-16.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:1105) ~[craftbukkit-1.7.5-R0.1-20140408.020329-16.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-	at net.minecraft.server.v1_7_R2.ThreadCommandReader.run(ThreadCommandReader.java:34) [craftbukkit-1.7.5-R0.1-20140408.020329-16.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-[21:25:17] [Server thread/INFO]: Default game type: SURVIVAL
-[21:25:17] [Server thread/INFO]: Generating keypair
-[21:25:18] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:25:18] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks (MC: 1.7.5) (Implementing API version 1.7.5-R0.1-SNAPSHOT)
-[21:25:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:25:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:25:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:25:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:25:18] [Server thread/INFO]: Preparing level "false"
-[21:25:18] [Server thread/INFO]: Preparing start region for level 0 (Seed: 61684109878805716)
-[21:25:19] [Server thread/INFO]: Preparing spawn area: 0%
-[21:25:20] [Thread-7/WARN]: Exception in thread "Thread-7" 
-[21:25:20] [Thread-7/WARN]: org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
-[21:25:20] [Thread-7/WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:180)
-[21:25:20] [Thread-7/WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:755)
-[21:25:20] [Thread-7/WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:694)
-[21:25:20] [Thread-7/WARN]: 	at org.bukkit.craftbukkit.v1_7_R2.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:53)
-[21:25:20] [Thread-7/WARN]: 	at org.bukkit.craftbukkit.v1_7_R2.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:30)
-[21:25:20] [Thread-7/WARN]: 	at org.bukkit.craftbukkit.v1_7_R2.updater.AutoUpdater$1.run(AutoUpdater.java:77)
-[21:25:20] [Thread-7/WARN]: Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
-[21:25:20] [Thread-7/WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
-[21:25:20] [Thread-7/WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
-[21:25:20] [Thread-7/WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:168)
-[21:25:20] [Thread-7/WARN]: 	... 5 more
-[21:25:20] [Server thread/INFO]: Preparing spawn area: 28%
-[21:25:21] [Server thread/INFO]: Preparing spawn area: 77%
-[21:25:22] [Server thread/INFO]: Preparing start region for level 1 (Seed: 61684109878805716)
-[21:25:23] [Server thread/INFO]: Preparing start region for level 2 (Seed: 2331610942913408221)
-[21:25:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:25:23] [Server thread/INFO]: Done (5.109s)! For help, type "help" or "?"
-[21:25:41] [Server thread/INFO]: 许双sb[/58.249.112.22:10937] logged in with entity id 322 at ([world] 161.5, 61.0, 206.5)
-[21:26:15] [Server thread/INFO]: 许双sb drowned
-[21:27:52] [Server thread/INFO]: 许双sb fell from a high place
-[21:31:32] [Server thread/INFO]: 许双sb issued server command: /give 许双sb Thaumcraft:blockTable 64 15
-[21:31:32] [Server thread/INFO]: 许双sb: Gave 许双sb some 0 (AIR)
-[21:31:43] [Server thread/INFO]: 许双sb issued server command: /give 许双sb Thaumcraft:blockJar 64 3
-[21:31:43] [Server thread/INFO]: 许双sb: Gave 许双sb some 0 (AIR)
-[21:31:51] [Server thread/INFO]: 许双sb issued server command: /give 许双sb ForbiddenMagic:WrathCage 64 0
-[21:31:51] [Server thread/INFO]: 许双sb: Gave 许双sb some 0 (AIR)
-[21:31:54] [Server thread/INFO]: 许双sb issued server command: /give 许双sb ThaumicTinkerer:bedrockPortal 64 0
-[21:31:54] [Server thread/INFO]: 许双sb: Gave 许双sb some 0 (AIR)
-[21:31:56] [Server thread/INFO]: 许双sb issued server command: /give 许双sb ThaumicTinkerer:Levitational Locomotive 64 0
-[21:33:35] [Server thread/INFO]: 许双sb issued server command: /give 许双sb Thaumcraft:FocusPrimal 1 0
-[21:33:35] [Server thread/INFO]: 许双sb: Gave 许双sb some 0 (AIR)
-[21:33:46] [Server thread/INFO]: 许双sb issued server command: /give 许双sb minecraft:iron_chestplate 1 0
-[21:33:46] [Server thread/INFO]: 许双sb: Gave 许双sb some 307 (IRON_CHESTPLATE)
-[21:33:52] [Server thread/INFO]: 许双sb issued server command: /give 许双sb minecraft:iron_helmet 1 0
-[21:33:52] [Server thread/INFO]: 许双sb: Gave 许双sb some 306 (IRON_HELMET)
-[21:33:53] [Server thread/INFO]: 许双sb issued server command: /give 许双sb minecraft:iron_boots 1 0
-[21:33:53] [Server thread/INFO]: 许双sb: Gave 许双sb some 309 (IRON_BOOTS)
-[21:33:53] [Server thread/INFO]: 许双sb issued server command: /give 许双sb minecraft:iron_leggings 1 0
-[21:33:53] [Server thread/INFO]: 许双sb: Gave 许双sb some 308 (IRON_LEGGINGS)
-[21:34:28] [Server thread/INFO]: 许双sb lost connection: Disconnected
-[21:34:28] [Server thread/INFO]: 许双sb left the game.
+[00:35:19] [Server thread/INFO]: 许双sb[/58.249.112.22:17245] logged in with entity id 1501307 at ([world] -775.6276855788927, 66.0, 94.86963733218067)
+[00:37:06] [Server thread/WARN]: 许双sb moved wrongly!
+[00:38:54] [Server thread/INFO]: 许双sb issued server command: /give 许双sb minecraft:ender_pearl 1 0
+[00:38:54] [Server thread/INFO]: 许双sb: Gave 许双sb some 368 (ENDER_PEARL)
+[00:38:55] [Server thread/INFO]: 许双sb issued server command: /give 许双sb minecraft:ender_pearl 1 0
+[00:38:55] [Server thread/INFO]: 许双sb: Gave 许双sb some 368 (ENDER_PEARL)
+[00:38:55] [Server thread/INFO]: 许双sb issued server command: /give 许双sb minecraft:ender_pearl 1 0
+[00:38:55] [Server thread/INFO]: 许双sb: Gave 许双sb some 368 (ENDER_PEARL)
+[00:39:36] [Server thread/INFO]: 许双sb issued server command: /give 许双sb minecraft:ender_pearl 1 0
+[00:39:36] [Server thread/INFO]: 许双sb: Gave 许双sb some 368 (ENDER_PEARL)
+[00:39:46] [Server thread/INFO]: 许双sb issued server command: /give 许双sb minecraft:ender_eye 1 0
+[00:39:46] [Server thread/INFO]: 许双sb: Gave 许双sb some 381 (EYE_OF_ENDER)
+[00:45:32] [Server thread/INFO]: 许双sb lost connection: Disconnected
+[00:45:32] [Server thread/INFO]: 许双sb left the game.
+[00:50:43] [Server thread/INFO]: Fang[/58.249.112.34:25383] logged in with entity id 1509618 at ([world] -1422.0914265066513, 67.0, 123.09316164672444)
+[00:52:19] [Server thread/INFO]: 许双sb[/58.249.112.22:32592] logged in with entity id 1510716 at ([world] -1418.6276757941525, 21.0, 113.90028423722826)
+[00:52:42] [Netty IO #0/INFO]: <许双sb> where are you
+[00:56:14] [Netty IO #0/INFO]: <Fang> 卧槽上面就是海了
+[00:59:08] [Netty IO #0/INFO]: <许双sb> nothing
+[01:01:27] [Netty IO #0/INFO]: <许双sb> wash cloth
+[01:01:30] [Netty IO #0/INFO]: <许双sb> wait
+[01:02:22] [Netty IO #0/INFO]: <Fang> 怎么回事这声音
+[01:02:39] [Netty IO #0/INFO]: <许双sb> slam
+[01:04:31] [Netty IO #0/INFO]: <许双sb> 你怎么把后路堵了
+[01:04:49] [Netty IO #0/INFO]: <Fang> 我怕漏水
+[01:05:30] [Netty IO #0/INFO]: <Fang> zheli
+[01:05:37] [Netty IO #0/INFO]: <Fang> youyoudongkoule
+[01:11:53] [Netty IO #0/INFO]: <许双sb> 绕了一圈。。。
+[01:13:14] [Netty IO #0/INFO]: <许双sb> ?
+[01:16:16] [Netty IO #0/INFO]: <许双sb> what!?
+[01:21:16] [Netty IO #0/INFO]: <许双sb> what are you doing
+[01:22:09] [Netty IO #0/INFO]: <许双sb> 还有好远
+[01:23:34] [Netty IO #0/INFO]: <许双sb> 晾衣服
+[01:23:41] [Netty IO #0/INFO]: <许双sb> wait
+[01:27:28] [Netty IO #0/INFO]: <许双sb> 咁都嘚！？
+[01:28:24] [Netty IO #0/INFO]: <Fang> 我要回去了，原石太多
+[01:28:42] [Netty IO #0/INFO]: <许双sb> 看地图
+[01:28:49] [Netty IO #0/INFO]: <许双sb> 我这个方向
+[01:28:58] [Netty IO #0/INFO]: <许双sb> 一整条矿脉
+[01:29:06] [Netty IO #0/INFO]: <许双sb> 看得到吗
+[01:29:22] [Netty IO #0/INFO]: <Fang> wocao!!
+[01:30:59] [Netty IO #0/INFO]: <许双sb> here
+[01:31:43] [Netty IO #0/INFO]: <许双sb> 刚好是入口
+[01:31:50] [Netty IO #0/INFO]: <Fang> jjguai
+[01:32:11] [Netty IO #0/INFO]: <许双sb> ...
+[01:34:45] [Netty IO #0/INFO]: <许双sb> run
+[01:35:21] [Netty IO #0/INFO]: <许双sb> 有JJ怪
+[01:35:27] [Netty IO #0/INFO]: <许双sb> 刚刚在你后面
+[01:35:31] [Netty IO #0/INFO]: <Fang> shesita
+[01:37:23] [Server thread/INFO]: Fang was blown up by Creeper
+[01:38:03] [Netty IO #0/INFO]: <Fang> cao!!!
+[01:38:18] [Netty IO #0/INFO]: <Fang> woxianxiale
+[01:38:51] [Server thread/INFO]: Fang lost connection: Internal Exception: net.minecraft.util.io.netty.handler.timeout.ReadTimeoutException
+[01:38:52] [Server thread/INFO]: Fang left the game.
+[01:40:03] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3023ms behind, skipping 60 tick(s)
+[01:59:46] [Server thread/INFO]: 许双sb issued server command: /tp 许双sb 159 68 196
+[01:59:46] [Server thread/INFO]: 许双sb: Teleported 许双sb to 159.50, 68.50, 196.50
+[01:59:46] [Server thread/INFO]: 许双sb issued server command: /tppos 159 68 196
+[02:00:03] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2613ms behind, skipping 52 tick(s)
+[02:09:16] [Server thread/INFO]: mahong[/58.249.112.45:62471] logged in with entity id 1564732 at ([world] 165.36748291935083, 61.0, 195.40401562688345)
+[02:09:32] [Netty IO #0/INFO]: <许双sb> 你居然还没睡
+[02:09:45] [Netty IO #0/INFO]: <mahong> luguo
+[02:09:57] [Netty IO #0/INFO]: <mahong> where are u
+[02:10:05] [Netty IO #0/INFO]: <许双sb> 在家种地
+[02:10:14] [Netty IO #0/INFO]: <许双sb> 快没吃的了
+[02:11:41] [Netty IO #0/INFO]: <mahong> kakakakakka
+[02:13:54] [Server thread/INFO]: Fang[/58.249.112.34:43874] logged in with entity id 1570998 at ([world] 170.5, 61.0, 195.5)
+[02:14:10] [Netty IO #0/INFO]: <许双sb> 泽华来了
+[02:14:30] [Netty IO #0/INFO]: <许双sb> 一听老马进来瞬间加入。。。
+[02:15:39] [Netty IO #0/INFO]: <mahong> cool
+[02:15:49] [Netty IO #0/INFO]: <许双sb> 为啥我的小狗崽掉血了
+[02:16:20] [Netty IO #0/INFO]: <许双sb> what are u doing
+[02:16:20] [Netty IO #0/INFO]: <mahong> zuodengzuanshi
+[02:16:56] [Netty IO #0/INFO]: <mahong> ?!?!?!?!?
+[02:17:27] [Netty IO #0/INFO]: <许双sb> 躺着等
+[02:17:59] [Netty IO #0/INFO]: <许双sb> 卧槽
+[02:18:31] [Netty IO #0/INFO]: <mahong> how to type chinese
+[02:18:49] [Netty IO #0/INFO]: <许双sb> 首先使用输入法
+[02:18:55] [Netty IO #0/INFO]: <许双sb> 然后打字
+[02:19:00] [Netty IO #0/INFO]: <mahong> nani
+[02:19:11] [Netty IO #0/INFO]: <许双sb> 泽华你要干啥
+[02:19:11] [Netty IO #0/INFO]: <mahong> what is he doing
+[02:20:03] [Netty IO #0/INFO]: <mahong> i cant stand that
+[02:20:05] [Netty IO #0/INFO]: <许双sb> 有JJ怪
+[02:20:21] [Netty IO #0/INFO]: <许双sb> 有末影人
+[02:22:14] [Netty IO #0/INFO]: <mahong> 66666
+[02:22:20] [Netty IO #0/INFO]: <许双sb> ???
+[02:22:35] [Netty IO #0/INFO]: <Fang> tiekuang
+[02:25:02] [Netty IO #0/INFO]: <许双sb> 别在这里炸啊
+[02:29:50] [Netty IO #0/INFO]: <许双sb> 老马开车不
+[02:32:04] [Netty IO #0/INFO]: <mahong> sha che
+[02:32:12] [Netty IO #0/INFO]: <许双sb> 矿车
+[02:32:58] [Netty IO #0/INFO]: <mahong> wtf
+[02:33:16] [Netty IO #0/INFO]: <许双sb> 现在没人自带车
+[02:33:18] [Netty IO #0/INFO]: <mahong> you sell me
+[02:33:28] [Netty IO #0/INFO]: <许双sb> 每人
+[02:34:45] [Netty IO #0/INFO]: <mahong> what a long rail
+[02:35:32] [Netty IO #0/INFO]: <mahong> we can connect the cars
+[02:35:56] [Netty IO #0/INFO]: <许双sb> connect个鬼
+[02:36:12] [Netty IO #0/INFO]: <mahong> why not
+[02:36:19] [Netty IO #0/INFO]: <许双sb> 停车啊
+[02:37:26] [Netty IO #0/INFO]: <许双sb> follow me
+[02:39:10] [Server thread/WARN]: mahong moved wrongly!
+[02:39:25] [Netty IO #0/INFO]: <许双sb> ...
+[02:39:30] [Netty IO #0/INFO]: <mahong> fuck
+[02:39:31] [Netty IO #0/INFO]: <Fang> 发现矿洞
+[02:39:37] [Netty IO #0/INFO]: <许双sb> 这边是矿
+[02:39:47] [Netty IO #0/INFO]: <许双sb> 还没开始掏
+[02:39:48] [Netty IO #0/INFO]: <mahong> 666
+[02:40:15] [Netty IO #0/INFO]: <许双sb> 看水里
+[02:40:46] [Netty IO #0/INFO]: <mahong> ?
+[02:40:52] [Netty IO #0/INFO]: <许双sb> 这座岛种树的
+[02:40:58] [Netty IO #0/INFO]: <mahong> why
+[02:41:18] [Netty IO #0/INFO]: <许双sb> 整座岛的树都是我种的
+[02:41:24] [Netty IO #0/INFO]: <mahong> 666
+[02:41:25] [Netty IO #0/INFO]: <许双sb> 缺火把
+[02:41:32] [Netty IO #0/INFO]: <许双sb> 缺木炭
+[02:41:45] [Server thread/INFO]: Fang was slain by Zombie
+[02:41:47] [Netty IO #0/INFO]: <mahong> why choose such a far place
+[02:41:53] [Netty IO #0/INFO]: <许双sb> ...
+[02:41:54] [Netty IO #0/INFO]: <mahong> ...
+[02:41:59] [Netty IO #0/INFO]: <许双sb> 666
+[02:42:29] [Netty IO #0/INFO]: <许双sb> 这下边就是那个大矿洞
+[02:42:44] [Netty IO #0/INFO]: <许双sb> here
+[02:44:40] [Netty IO #0/INFO]: <mahong> i made a naijiu3 fengli3 huoyan1 de sword
+[02:44:59] [Netty IO #0/INFO]: <mahong> just 19 grade fumo
+[02:45:06] [Netty IO #0/INFO]: <许双sb> so?
+[02:46:06] [Netty IO #0/INFO]: <许双sb> 泽华刚才死这里
+[02:46:08] [Netty IO #0/INFO]: <mahong> si gay
+[02:46:34] [Netty IO #0/INFO]: <mahong> isnt he at home?
+[02:46:44] [Netty IO #0/INFO]: <许双sb> wtf
+[02:46:53] [Netty IO #0/INFO]: <mahong> ????
+[02:47:17] [Netty IO #0/INFO]: <许双sb> 没火把
+[02:47:24] [Netty IO #0/INFO]: <许双sb> 泽华把他做了
+[02:48:27] [Netty IO #0/INFO]: <mahong> my bad
+[02:49:18] [Netty IO #0/INFO]: <许双sb> 怎么有狗的声音
+[02:49:56] [Netty IO #0/INFO]: <许双sb> 谁把我的狗放出来了
+[02:49:58] [Netty IO #0/INFO]: <mahong> here
+[02:50:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3149ms behind, skipping 62 tick(s)
+[02:50:51] [Netty IO #0/INFO]: <mahong> where is the dog
+[02:51:49] [Netty IO #0/INFO]: <mahong> wtf
+[02:52:15] [Netty IO #0/INFO]: <许双sb> 你插个火把
+[02:52:25] [Netty IO #0/INFO]: <mahong> wait
+[02:55:06] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3033ms behind, skipping 60 tick(s)
+[02:55:25] [Netty IO #0/INFO]: <许双sb> 地图上好多JJ怪
+[02:55:40] [Netty IO #0/INFO]: <mahong> i see nothing
+[02:55:55] [Netty IO #0/INFO]: <许双sb> 看见没
+[02:56:19] [Netty IO #0/INFO]: <mahong> !!!!
+[02:56:28] [Netty IO #0/INFO]: <mahong> what a surprise
+[02:58:56] [Netty IO #0/INFO]: <mahong> what are u doing
+[03:03:06] [Netty IO #0/INFO]: <mahong> holy shit
+[03:03:12] [Netty IO #0/INFO]: <许双sb> 吓得我整个人都跳起来了
+[03:03:43] [Netty IO #0/INFO]: <许双sb> 前面有个大厅
+[03:03:52] [Netty IO #0/INFO]: <许双sb> your head
+[03:04:17] [Netty IO #0/INFO]: <mahong> lead the way
+[03:06:02] [Netty IO #0/INFO]: <许双sb> papapa
+[03:06:10] [Netty IO #0/INFO]: <mahong> silam
+[03:06:27] [Netty IO #0/INFO]: <许双sb> well
+[03:07:31] [Netty IO #0/INFO]: <mahong> yanjiang
+[03:07:51] [Server thread/INFO]: Fang was slain by Spider
+[03:07:58] [Netty IO #0/INFO]: <许双sb> shit
+[03:08:10] [Netty IO #0/INFO]: <mahong> poor dog
+[03:08:11] [Netty IO #0/INFO]: <许双sb> 我的狗啊
+[03:08:41] [Netty IO #0/INFO]: <mahong> by the way i have no tools
+[03:09:14] [Netty IO #0/INFO]: <mahong> golf
+[03:09:17] [Netty IO #0/INFO]: <mahong> gold
+[03:09:20] [Netty IO #0/INFO]: <许双sb> 这么多木棍
+[03:09:32] [Netty IO #0/INFO]: <mahong> the rail burn
+[03:09:59] [Netty IO #0/INFO]: <许双sb> 大厅到了
+[03:10:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3083ms behind, skipping 61 tick(s)
+[03:10:22] [Netty IO #0/INFO]: <许双sb> 准备战斗
+[03:13:13] [Netty IO #0/INFO]: <mahong> i kill a kulipa
+[03:13:28] [Netty IO #0/INFO]: <mahong> ni cha dian si le
+[03:16:10] [Netty IO #0/INFO]: <mahong> what sound
+[03:16:15] [Netty IO #0/INFO]: <许双sb> 末影人
+[03:18:14] [Netty IO #0/INFO]: <mahong> i got a potato
+[03:18:24] [Netty IO #0/INFO]: <许双sb> 还有一个
+[03:18:57] [Netty IO #0/INFO]: <许双sb> 可以撤退了
+[03:19:26] [Netty IO #0/INFO]: <Fang> 好多煤矿
+[03:19:44] [Netty IO #0/INFO]: <Fang> 还有只末影人
+[03:21:14] [Netty IO #0/INFO]: <许双sb> wait
+[03:21:17] [Netty IO #0/INFO]: <许双sb> here
+[03:21:24] [Netty IO #0/INFO]: <许双sb> gold
+[03:22:04] [Netty IO #0/INFO]: <许双sb> 我快没火把了
+[03:22:15] [Netty IO #0/INFO]: <mahong> make some
+[03:22:50] [Netty IO #0/INFO]: <mahong> xiao hei
+[03:23:00] [Server thread/INFO]: Fang lost connection: Disconnected
+[03:23:00] [Server thread/INFO]: Fang left the game.
+[03:23:38] [Netty IO #0/INFO]: <许双sb> 杀
+[03:25:05] [Netty IO #0/INFO]: <许双sb> 你有煤炭是吧
+[03:25:13] [Netty IO #0/INFO]: <许双sb> 做些火把
+[03:25:31] [Netty IO #0/INFO]: <mahong> help me
+[03:25:57] [Netty IO #0/INFO]: <mahong> wo meiyou
+[03:26:16] [Netty IO #0/INFO]: <许双sb> 你只有木板？
+[03:26:26] [Netty IO #0/INFO]: <mahong> yep
+[03:27:48] [Netty IO #0/INFO]: <许双sb> JJ
+[03:29:33] [Netty IO #0/INFO]: <许双sb> go back
+[03:29:34] [Netty IO #0/INFO]: <mahong> find some coal
+[03:30:23] [Netty IO #0/INFO]: <mahong> do you see the spiders?
+[03:30:30] [Netty IO #0/INFO]: <许双sb> ?
+[03:30:40] [Netty IO #0/INFO]: <mahong> behind us
+[03:30:48] [Netty IO #0/INFO]: <mahong> there must be a cage
+[03:30:58] [Netty IO #0/INFO]: <许双sb> 给我4个木棍
+[03:31:56] [Netty IO #0/INFO]: <许双sb> 在下面
+[03:35:40] [Netty IO #0/INFO]: <许双sb> go back
+[03:37:30] [Netty IO #0/INFO]: <mahong> we are lost
+[03:37:42] [Netty IO #0/INFO]: <许双sb> mei you a
+[03:41:13] [Netty IO #0/INFO]: <mahong> 66666
+[03:42:40] [Server thread/WARN]: mahong moved wrongly!
+[03:45:13] [Netty IO #0/INFO]: <许双sb> 卧槽都4点了
+[03:45:20] [Netty IO #0/INFO]: <许双sb> 睡
+[03:45:24] [Server thread/INFO]: 许双sb lost connection: Disconnected
+[03:45:24] [Server thread/INFO]: 许双sb left the game.
+[03:45:24] [Netty IO #0/INFO]: <mahong> cai fa xain
+[03:47:46] [Server thread/INFO]: mahong lost connection: Disconnected
+[03:47:46] [Server thread/INFO]: mahong left the game.
