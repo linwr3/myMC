@@ -1,8 +1,8 @@
 Loading libraries, please wait...
-[22:34:34 INFO]: Starting minecraft server version 1.7.5
-[22:34:34 WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[22:34:34 INFO]: Loading properties
-[22:34:34 ERROR]: Exception handling console input
+[01:18:19 INFO]: Starting minecraft server version 1.7.5
+[01:18:19 WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[01:18:19 INFO]: Loading properties
+[01:18:19 ERROR]: Exception handling console input
 java.io.IOException: Bad file descriptor
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.7.0_79]
 	at java.io.FileInputStream.read(FileInputStream.java:272) ~[?:1.7.0_79]
@@ -18,530 +18,346 @@ java.io.IOException: Bad file descriptor
 	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:1117) ~[craftbukkit-1.7.5-R0.1-20140408.020329-16.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
 	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:1105) ~[craftbukkit-1.7.5-R0.1-20140408.020329-16.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
 	at net.minecraft.server.v1_7_R2.ThreadCommandReader.run(ThreadCommandReader.java:34) [craftbukkit-1.7.5-R0.1-20140408.020329-16.jar:git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks]
-[22:34:34 INFO]: Default game type: SURVIVAL
-[22:34:34 INFO]: Generating keypair
-[22:34:34 INFO]: Starting Minecraft server on *:25565
-[22:34:35 INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks (MC: 1.7.5) (Implementing API version 1.7.5-R0.1-SNAPSHOT)
-[22:34:35 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:34:35 WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:34:35 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:34:35 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:34:35 INFO]: Preparing level "false"
-[22:34:35 INFO]: Preparing start region for level 0 (Seed: 61684109878805716)
-[22:34:36 INFO]: Preparing spawn area: 0%
-[22:34:37 INFO]: Preparing spawn area: 29%
-[22:34:38 WARN]: Exception in thread "Thread-7" 
-[22:34:38 WARN]: org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
-[22:34:38 WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:180)
-[22:34:38 WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:755)
-[22:34:38 WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:694)
-[22:34:38 WARN]: 	at org.bukkit.craftbukkit.v1_7_R2.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:53)
-[22:34:38 WARN]: 	at org.bukkit.craftbukkit.v1_7_R2.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:30)
-[22:34:38 WARN]: 	at org.bukkit.craftbukkit.v1_7_R2.updater.AutoUpdater$1.run(AutoUpdater.java:77)
-[22:34:38 WARN]: Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
-[22:34:38 WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
-[22:34:38 WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
-[22:34:38 WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:168)
-[22:34:38 WARN]: 	... 5 more
-[22:34:38 INFO]: Preparing spawn area: 61%
-[22:34:39 INFO]: Preparing start region for level 1 (Seed: 61684109878805716)
-[22:34:40 INFO]: Preparing spawn area: 62%
-[22:34:40 INFO]: Preparing start region for level 2 (Seed: 2331610942913408221)
-[22:34:41 INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:34:41 INFO]: Done (5.916s)! For help, type "help" or "?"
-[23:19:03 INFO]: Fang[/58.249.112.34:34236] logged in with entity id 503 at ([world] 174.5, 65.0, 261.5)
-[23:19:52 INFO]: Fang has just earned the achievement [Taking Inventory]
-[23:20:07 INFO]: Fang has just earned the achievement [Getting Wood]
-[23:26:24 INFO]: Fang has just earned the achievement [Benchmarking]
-[23:27:36 INFO]: Fang has just earned the achievement [Time to Mine!]
-[23:27:56 INFO]: Fang has just earned the achievement [Time to Strike!]
-[23:35:02 INFO]: Fang has just earned the achievement [Monster Hunter]
-[23:35:34 INFO]: Fang was slain by Zombie
-[23:36:05 INFO]: Fang was slain by Spider
-[23:38:50 INFO]: Fang was slain by Spider
-[23:41:15 INFO]: Fang was slain by Zombie
-[23:43:47 INFO]: Fang tried to swim in lava
-[23:47:28 INFO]: Fang drowned
-[23:55:10 INFO]: Fang was slain by Spider
-[23:56:16 INFO]: Fang was slain by Zombie
-[23:56:52 INFO]: Fang was blown up by Creeper
-[23:57:11 INFO]: Fang was shot by Skeleton
-[00:13:09 INFO]: Disconnecting GameProfile{id='ea07e4103cb9313f9ba586529ce92772', name='sb'} (/58.249.112.22:19225): You are not white-listed on this server!
-[00:13:10 INFO]: GameProfile{id='ea07e4103cb9313f9ba586529ce92772', name='sb'} (/58.249.112.22:19225) lost connection: You are not white-listed on this server!
-[00:13:11 INFO]: Disconnecting GameProfile{id='0f80a62cb9163a9c87074fa50df8c4ab', name='superxlcr'} (/58.249.112.47:6033): You are not white-listed on this server!
-[00:13:11 INFO]: GameProfile{id='0f80a62cb9163a9c87074fa50df8c4ab', name='superxlcr'} (/58.249.112.47:6033) lost connection: You are not white-listed on this server!
-[00:14:28 INFO]: 许双sb[/58.249.112.22:7900] logged in with entity id 59913 at ([world] 168.630695214308, 81.0, 174.8387464707873)
-[00:19:19 INFO]: Fang went up in flames
-[00:36:17 INFO]: Fang was slain by Zombie
-[00:42:23 INFO]: Fang issued server command: /help
-[00:43:17 INFO]: Fang issued server command: /tell 许双sb test
-[00:48:06 INFO]: Fang has just earned the achievement [Hot Topic]
-[00:58:02 INFO]: 许双sb issued server command: /time set 22230000
-[00:58:02 INFO]: 许双sb: Set time to 22230000
-[01:14:03 INFO]: Fang issued server command: /tell 许双sb so long
-[01:15:12 INFO]: Fang has just earned the achievement [Cow Tipper]
-[01:15:47 INFO]: <许双sb> 你刚刚干啥了
-[01:16:02 INFO]: <许双sb> 按T可以说话
-[01:16:34 INFO]: <许双sb> 天黑了
-[01:19:19 INFO]: <许双sb> 有些鱼很珍贵，别烤了
-[01:21:42 INFO]: <Fang> gandoude
-[01:22:14 INFO]: <许双sb> 鱼竿可以拿来杀怪
-[01:22:52 INFO]: <许双sb> 比如怪在水里，勾住的话他们浮不上来会憋死
-[01:23:20 INFO]: <Fang> soga
-[01:23:25 INFO]: <许双sb> 站在高处吊几次可以也摔死怪
-[01:32:10 INFO]: <许双sb> 你把我的金合欢树给掏了！？
-[01:42:00 INFO]: Fang was shot by Skeleton
-[01:53:12 INFO]: <许双sb> 红石！
-[02:17:26 INFO]: 许双sb has just earned the achievement [The Lie]
-[02:17:45 INFO]: Fang has just earned the achievement [Time to Farm!]
-[02:23:54 INFO]: 许双sb lost connection: Disconnected
-[02:23:54 INFO]: 许双sb left the game.
-[02:27:42 INFO]: Fang fell from a high place
-[02:28:50 INFO]: Fang lost connection: Disconnected
-[02:28:50 INFO]: Fang left the game.
-[02:37:54 INFO]: Fang[/58.249.112.34:23841] logged in with entity id 215181 at ([world] 162.92676656496656, 61.0, 193.73926045532835)
-[02:39:20 INFO]: Fang lost connection: Disconnected
-[02:39:20 INFO]: Fang left the game.
-[09:47:31 INFO]: Fang[/58.249.112.34:51801] logged in with entity id 217505 at ([world] 167.7766458413899, 61.0, 194.61916917518855)
-[09:50:19 INFO]: Fang has just earned the achievement [Getting an Upgrade]
-[09:54:17 INFO]: Fang has just earned the achievement [Delicious Fish]
-[10:00:58 INFO]: Fang was slain by Zombie
-[11:04:11 INFO]: Fang lost connection: Disconnected
-[11:04:11 INFO]: Fang left the game.
-[12:23:43 INFO]: Fang[/58.249.112.34:63189] logged in with entity id 279034 at ([world] -106.08645107787461, 67.0, 64.21137600544249)
-[13:07:46 INFO]: 许双sb[/58.249.112.22:7977] logged in with entity id 310470 at ([world] 167.45313962759928, 61.0, 196.9008052130201)
-[13:08:44 INFO]: 许双sb issued server command: /whitelist add superxlcr
-[13:08:44 INFO]: 许双sb: Added superxlcr to white-list
-[13:09:31 INFO]: superxlcr[/58.249.112.47:16523] logged in with entity id 314639 at ([world] 191.5, 63.0, 264.5)
-[13:09:39 INFO]: superxlcr has just earned the achievement [Taking Inventory]
-[13:10:07 INFO]: superxlcr issued server command: /give superxlcr minecraft:noteblock 64 0
-[13:26:19 INFO]: superxlcr lost connection: Disconnected
-[13:26:19 INFO]: superxlcr left the game.
-[13:40:35 INFO]: <许双sb> 金要铁镐才能挖
-[13:40:55 INFO]: <Fang> enen
-[13:53:06 INFO]: <许双sb> 回去吧，我没火把了
-[13:55:34 INFO]: <许双sb> 要不要搭铁路
-[13:55:40 INFO]: <许双sb> 你先走
-[13:55:42 INFO]: <Fang> ok
-[13:58:52 WARN]: Fang moved wrongly!
-[14:03:27 INFO]: <许双sb> 我先去砍树烧木炭做火把
-[14:04:46 INFO]: Fang has just earned the achievement [Acquire Hardware]
-[14:16:53 INFO]: <许双sb> sleep
-[14:28:27 INFO]: Fang lost connection: Disconnected
-[14:28:27 INFO]: Fang left the game.
-[14:30:25 INFO]: 许双sb issued server command: /tp 许双sb 159 68 196
-[14:30:25 INFO]: 许双sb: Teleported 许双sb to 159.50, 68.50, 196.50
-[14:30:25 INFO]: 许双sb issued server command: /tppos 159 68 196
-[14:40:49 INFO]: 许双sb issued server command: /tp 许双sb 159 68 196
-[14:40:49 INFO]: 许双sb: Teleported 许双sb to 159.50, 68.50, 196.50
-[14:40:49 INFO]: 许双sb issued server command: /tppos 159 68 196
-[14:50:54 INFO]: 许双sb issued server command: /time set 23280000
-[14:50:54 INFO]: 许双sb: Set time to 23280000
-[14:59:34 INFO]: 许双sb lost connection: Disconnected
-[14:59:34 INFO]: 许双sb left the game.
-[15:23:18 INFO]: Fang[/58.249.112.34:60674] logged in with entity id 477770 at ([world] 162.48693860783564, 68.0, 194.68232518892344)
-[15:25:58 INFO]: Fang lost connection: Disconnected
-[15:25:58 INFO]: Fang left the game.
-[17:40:44 INFO]: superxlcr[/58.249.112.47:22543] logged in with entity id 479772 at ([world] 169.5362705923532, 61.0, 200.40699831974456)
-[17:44:37 INFO]: 许双sb[/58.249.112.22:41889] logged in with entity id 484056 at ([world] 157.38739672912584, 70.0, 198.36973329043627)
-[17:44:42 INFO]: <许双sb> Damage Indicators was unable to check for updates!
-[17:54:35 INFO]: 许双sb lost connection: Disconnected
-[17:54:35 INFO]: 许双sb left the game.
-[17:55:12 INFO]: superxlcr lost connection: Disconnected
-[17:55:12 INFO]: superxlcr left the game.
-[18:36:03 INFO]: 许双sb[/58.249.112.22:42088] logged in with entity id 503803 at ([world] -107.69999998807909, 67.0, 61.38599249506235)
-[18:38:33 INFO]: superxlcr[/58.249.112.47:49756] logged in with entity id 504829 at ([world] 161.53108128824528, 68.0, 198.4591673113744)
-[18:52:31 INFO]: 许双sb issued server command: /give 许双sb minecraft:iron_ingot 64 0
-[18:52:31 INFO]: 许双sb: Gave 许双sb some 265 (IRON_INGOT)
-[18:54:37 WARN]: superxlcr moved wrongly!
-[18:59:03 WARN]: superxlcr moved wrongly!
-[19:45:48 INFO]: mahong[/58.249.112.45:54407] logged in with entity id 636588 at ([world] 165.0228880761258, 61.0, 194.35806313366732)
-[19:46:09 INFO]: <mahong> where are u
-[19:46:15 INFO]: <superxlcr> car
-[19:46:24 INFO]: <许双sb> 没时间解释了，快上车
-[19:46:38 INFO]: <mahong> how to type chinese
-[19:48:12 WARN]: superxlcr moved wrongly!
-[19:48:22 INFO]: <superxlcr> fuck
-[19:48:25 INFO]: <mahong> wtf
-[19:48:44 INFO]: <mahong> whats up
-[19:49:50 INFO]: <superxlcr> ....
-[19:49:50 INFO]: <mahong> haha
-[19:50:01 INFO]: 许双sb lost connection: Disconnected
-[19:50:01 INFO]: 许双sb left the game.
-[19:50:45 INFO]: mahong lost connection: Disconnected
-[19:50:45 INFO]: mahong left the game.
-[20:16:02 WARN]: superxlcr moved wrongly!
-[20:54:39 INFO]: superxlcr lost connection: Disconnected
-[20:54:39 INFO]: superxlcr left the game.
-[20:54:41 INFO]: superxlcr[/58.249.112.47:37709] logged in with entity id 746713 at ([world] 138.975104775784, 68.5, 199.38800870257953)
-[20:56:54 INFO]: superxlcr lost connection: Disconnected
-[20:56:54 INFO]: superxlcr left the game.
-[20:57:22 INFO]: superxlcr[/58.249.112.47:38353] logged in with entity id 749059 at ([world] -106.30805797763915, 68.0, 69.45192816722412)
-[21:13:05 INFO]: superxlcr drowned
-[21:27:04 INFO]: superxlcr lost connection: Disconnected
-[21:27:04 INFO]: superxlcr left the game.
-[21:29:25 INFO]: Fang[/58.249.112.34:31852] logged in with entity id 775002 at ([world] 163.5763134715881, 68.0, 201.93574039643744)
-[21:46:00 INFO]: Fang lost connection: Internal Exception: net.minecraft.util.io.netty.handler.timeout.ReadTimeoutException
-[21:46:00 INFO]: Fang left the game.
-[19:36:44 INFO]: superxlcr[/58.249.112.47:22413] logged in with entity id 799773 at ([world] 159.7415980456071, 68.0, 199.12721182837168)
-[19:37:43 INFO]: 许双sb[/58.249.112.22:54739] logged in with entity id 801555 at ([world] 160.12382397546014, 69.0, 201.9947966697347)
-[19:37:46 INFO]: <许双sb> Damage Indicators was unable to check for updates!
-[19:40:22 INFO]: superxlcr lost connection: Disconnected
-[19:40:22 INFO]: superxlcr left the game.
-[19:42:37 INFO]: superxlcr[/58.249.112.47:48419] logged in with entity id 806599 at ([world] 158.64638330415735, 68.0, 204.6395985650233)
-[19:42:43 INFO]: <superxlcr> 测试
-[19:42:58 INFO]: <superxlcr> 老子能说中文啦！！！！
-[20:12:10 INFO]: 许双sb lost connection: Disconnected
-[20:12:10 INFO]: 许双sb left the game.
-[20:15:04 INFO]: superxlcr lost connection: Disconnected
-[20:15:04 INFO]: superxlcr left the game.
-[21:38:21 INFO]: superxlcr[/58.249.112.47:49918] logged in with entity id 858059 at ([world] 159.91200606526004, 61.0, 201.0055759608775)
-[21:38:40 INFO]: <superxlcr> 测试
-[21:52:43 INFO]: superxlcr has just earned the achievement [Getting Wood]
-[22:05:04 INFO]: 许双sb[/58.249.112.22:22325] logged in with entity id 887584 at ([world] 162.43869235350715, 68.0, 200.64763371510298)
-[22:05:06 INFO]: <许双sb> Damage Indicators was unable to check for updates!
-[22:44:44 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2818ms behind, skipping 56 tick(s)
-[22:49:45 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2947ms behind, skipping 58 tick(s)
-[22:54:46 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2716ms behind, skipping 54 tick(s)
-[22:59:46 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2825ms behind, skipping 56 tick(s)
-[23:04:47 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2548ms behind, skipping 50 tick(s)
-[23:23:36 INFO]: superxlcr lost connection: Disconnected
-[23:23:36 INFO]: superxlcr left the game.
-[23:23:39 INFO]: 许双sb lost connection: Disconnected
-[23:23:39 INFO]: 许双sb left the game.
-[11:43:07 INFO]: superxlcr[/58.249.112.47:50602] logged in with entity id 1005873 at ([world] 154.7590240760385, 61.0, 205.45321569266105)
-[11:57:04 WARN]: superxlcr moved wrongly!
-[11:58:35 WARN]: superxlcr moved wrongly!
-[12:29:26 WARN]: superxlcr moved wrongly!
-[12:45:22 INFO]: superxlcr lost connection: Disconnected
-[12:45:22 INFO]: superxlcr left the game.
-[17:22:05 INFO]: 许双sb[/58.249.112.22:23569] logged in with entity id 1139408 at ([world] 162.51154737666394, 61.0, 198.30000001192093)
-[18:19:48 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2465ms behind, skipping 49 tick(s)
-[18:29:58 INFO]: 许双sb has just earned the achievement [Sniper Duel]
-[18:44:52 INFO]: 许双sb lost connection: Disconnected
-[18:44:52 INFO]: 许双sb left the game.
-[20:58:41 INFO]: Fang[/223.73.72.99:50790] logged in with entity id 1193491 at ([world] -105.37652875112813, 67.0, 75.88284616583589)
-[21:05:55 INFO]: superxlcr[/58.249.112.47:32992] logged in with entity id 1206308 at ([world] -982.5960196137189, 64.0, 128.75965550390234)
-[21:06:07 INFO]: <superxlcr> 教头你在哪里？
-[21:07:28 INFO]: <Fang> 大本营
-[21:07:38 INFO]: <superxlcr> 老家？
-[21:07:44 INFO]: <Fang> dui
-[21:07:53 INFO]: <superxlcr> 坐车来海上玩
-[21:08:01 INFO]: <superxlcr> 看站点名
-[21:08:07 INFO]: <Fang> wozhunbeixia
-[21:08:12 INFO]: <superxlcr> 好好
-[21:14:49 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3168ms behind, skipping 63 tick(s)
-[21:19:50 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3380ms behind, skipping 67 tick(s)
-[21:19:51 INFO]: Fang was slain by Spider
-[21:20:05 INFO]: <Fang> FXXK!
-[21:20:14 INFO]: <superxlcr> 你怎么被炸死了？
-[21:20:39 INFO]: <Fang> 好多怪啊
-[21:20:56 INFO]: <superxlcr> 哪里？
-[21:21:03 INFO]: <Fang> beach
-[21:21:28 INFO]: <Fang> 帮我把矿车回收下
-[21:21:38 INFO]: <superxlcr> 纳尼……
-[21:21:46 INFO]: <superxlcr> 车站没事吧……………………
-[21:21:56 INFO]: <Fang> mushi
-[21:22:02 INFO]: <Fang> woshile
-[21:22:21 INFO]: <superxlcr> 我在海上
-[21:22:35 INFO]: <superxlcr> 离海滩很远也
-[21:22:43 INFO]: <Fang> haoba
-[21:22:48 INFO]: <Fang> woguoqu
-[21:24:51 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3017ms behind, skipping 60 tick(s)
-[21:29:52 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2965ms behind, skipping 59 tick(s)
-[21:33:48 INFO]: <Fang> nizaina
-[21:34:09 INFO]: <superxlcr> 沿着未知一直走
-[21:34:53 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2665ms behind, skipping 53 tick(s)
-[21:36:47 INFO]: <superxlcr> 我给一些铁轨给你
-[21:36:51 INFO]: <superxlcr> 你去浦路吧
-[21:36:55 INFO]: <Fang> woyoule
-[21:37:04 INFO]: <superxlcr> 动力铁轨？
-[21:37:20 INFO]: <Fang> dui
-[21:37:39 INFO]: <superxlcr> 那你帮我把前面铺上铁轨吧
-[21:38:53 INFO]: <superxlcr> 你帮我铺上石头哪里吧
-[21:40:30 INFO]: <Fang> ok
-[21:40:45 INFO]: <Fang> 方向怎么调
-[21:40:57 INFO]: <superxlcr> 不用调
-[21:41:03 INFO]: <superxlcr> 他自己会适应的
-[21:44:54 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2923ms behind, skipping 58 tick(s)
-[21:47:04 INFO]: 许双sb[/58.249.112.22:16879] logged in with entity id 1264867 at ([world] -779.620681423406, 64.0, 128.17927947991234)
-[21:47:06 INFO]: <许双sb> Damage Indicators was unable to check for updates!
-[21:47:58 INFO]: <superxlcr> 教头，你身上有石头或者泥土吗？你还有没有铁轨?
-[21:48:23 INFO]: <Fang> 有石头
-[21:48:31 INFO]: <superxlcr> 有多少？
-[21:57:08 INFO]: <许双sb> 你在干嘛
-[21:57:27 INFO]: <Fang> 发现煤矿
-[21:57:49 INFO]: <许双sb> 你干嘛不留后路
-[21:57:57 INFO]: <许双sb> 回不去啊
-[22:09:26 WARN]: superxlcr moved wrongly!
-[22:12:22 INFO]: 许双sb lost connection: Disconnected
-[22:12:22 INFO]: 许双sb left the game.
-[22:15:12 INFO]: Fang lost connection: Internal Exception: net.minecraft.util.io.netty.handler.timeout.ReadTimeoutException
-[22:15:12 INFO]: Fang left the game.
-[22:17:31 INFO]: 许双sb[/58.249.112.22:30546] logged in with entity id 1298406 at ([world] -775.6359357106463, 66.0, 94.41389218451937)
-[22:25:52 WARN]: superxlcr moved wrongly!
-[22:27:11 INFO]: superxlcr lost connection: Disconnected
-[22:27:11 INFO]: superxlcr left the game.
-[22:27:26 INFO]: superxlcr[/58.249.112.47:39493] logged in with entity id 1320595 at ([world] 156.71024514456653, 69.0, 184.8364977672857)
-[22:32:22 INFO]: superxlcr lost connection: Internal Exception: java.io.IOException: Connection reset by peer
-[22:32:22 INFO]: superxlcr left the game.
-[23:25:50 INFO]: 许双sb issued server command: /give 许双sb minecraft:dirt 64 0
-[23:25:50 INFO]: 许双sb: Gave 许双sb some 3 (DIRT)
-[23:25:50 INFO]: 许双sb issued server command: /give 许双sb minecraft:dirt 64 0
-[23:25:50 INFO]: 许双sb: Gave 许双sb some 3 (DIRT)
-[23:32:15 INFO]: 许双sb issued server command: /give 许双sb minecraft:dirt 64 0
-[23:32:15 INFO]: 许双sb: Gave 许双sb some 3 (DIRT)
-[23:32:15 INFO]: 许双sb issued server command: /give 许双sb minecraft:dirt 64 0
-[23:32:15 INFO]: 许双sb: Gave 许双sb some 3 (DIRT)
-[23:32:17 INFO]: 许双sb issued server command: /give 许双sb minecraft:dirt 64 0
-[23:32:17 INFO]: 许双sb: Gave 许双sb some 3 (DIRT)
-[23:35:21 INFO]: 许双sb issued server command: /give 许双sb minecraft:dirt 64 0
-[23:35:21 INFO]: 许双sb: Gave 许双sb some 3 (DIRT)
-[23:35:21 INFO]: 许双sb issued server command: /give 许双sb minecraft:dirt 64 0
-[23:35:21 INFO]: 许双sb: Gave 许双sb some 3 (DIRT)
-[23:35:21 INFO]: 许双sb issued server command: /give 许双sb minecraft:dirt 64 0
-[23:35:21 INFO]: 许双sb: Gave 许双sb some 3 (DIRT)
-[23:35:22 INFO]: 许双sb issued server command: /give 许双sb minecraft:dirt 64 0
-[23:35:22 INFO]: 许双sb: Gave 许双sb some 3 (DIRT)
-[23:37:29 INFO]: 许双sb issued server command: /give 许双sb minecraft:dirt 64 0
-[23:37:29 INFO]: 许双sb: Gave 许双sb some 3 (DIRT)
-[23:37:29 INFO]: 许双sb issued server command: /give 许双sb minecraft:dirt 64 0
-[23:37:29 INFO]: 许双sb: Gave 许双sb some 3 (DIRT)
-[23:37:30 INFO]: 许双sb issued server command: /give 许双sb minecraft:dirt 64 0
-[23:37:30 INFO]: 许双sb: Gave 许双sb some 3 (DIRT)
-[23:59:56 INFO]: 许双sb lost connection: Disconnected
-[23:59:56 INFO]: 许双sb left the game.
-[18:35:40 INFO]: superxlcr[/58.249.112.47:24397] logged in with entity id 1433776 at ([world] 161.2761223179868, 69.0, 201.43037243166606)
-[19:04:54 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2633ms behind, skipping 52 tick(s)
-[19:09:55 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2823ms behind, skipping 56 tick(s)
-[19:15:43 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2385ms behind, skipping 47 tick(s)
-[19:16:05 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5295ms behind, skipping 105 tick(s)
-[19:17:25 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3115ms behind, skipping 62 tick(s)
-[19:17:40 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2431ms behind, skipping 48 tick(s)
-[19:20:02 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3153ms behind, skipping 63 tick(s)
-[19:22:40 INFO]: superxlcr lost connection: Disconnected
-[19:22:40 INFO]: superxlcr left the game.
-[19:25:02 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2216ms behind, skipping 44 tick(s)
-[23:12:57 INFO]: Fang[/58.249.112.34:13603] logged in with entity id 1492637 at ([world] -1431.9448244114167, 69.0, 130.89951911230685)
-[23:29:14 INFO]: Fang lost connection: Disconnected
-[23:29:14 INFO]: Fang left the game.
-[00:35:19 INFO]: 许双sb[/58.249.112.22:17245] logged in with entity id 1501307 at ([world] -775.6276855788927, 66.0, 94.86963733218067)
-[00:37:06 WARN]: 许双sb moved wrongly!
-[00:38:54 INFO]: 许双sb issued server command: /give 许双sb minecraft:ender_pearl 1 0
-[00:38:54 INFO]: 许双sb: Gave 许双sb some 368 (ENDER_PEARL)
-[00:38:55 INFO]: 许双sb issued server command: /give 许双sb minecraft:ender_pearl 1 0
-[00:38:55 INFO]: 许双sb: Gave 许双sb some 368 (ENDER_PEARL)
-[00:38:55 INFO]: 许双sb issued server command: /give 许双sb minecraft:ender_pearl 1 0
-[00:38:55 INFO]: 许双sb: Gave 许双sb some 368 (ENDER_PEARL)
-[00:39:36 INFO]: 许双sb issued server command: /give 许双sb minecraft:ender_pearl 1 0
-[00:39:36 INFO]: 许双sb: Gave 许双sb some 368 (ENDER_PEARL)
-[00:39:46 INFO]: 许双sb issued server command: /give 许双sb minecraft:ender_eye 1 0
-[00:39:46 INFO]: 许双sb: Gave 许双sb some 381 (EYE_OF_ENDER)
-[00:45:32 INFO]: 许双sb lost connection: Disconnected
-[00:45:32 INFO]: 许双sb left the game.
-[00:50:43 INFO]: Fang[/58.249.112.34:25383] logged in with entity id 1509618 at ([world] -1422.0914265066513, 67.0, 123.09316164672444)
-[00:52:19 INFO]: 许双sb[/58.249.112.22:32592] logged in with entity id 1510716 at ([world] -1418.6276757941525, 21.0, 113.90028423722826)
-[00:52:42 INFO]: <许双sb> where are you
-[00:56:14 INFO]: <Fang> 卧槽上面就是海了
-[00:59:08 INFO]: <许双sb> nothing
-[01:01:27 INFO]: <许双sb> wash cloth
-[01:01:30 INFO]: <许双sb> wait
-[01:02:22 INFO]: <Fang> 怎么回事这声音
-[01:02:39 INFO]: <许双sb> slam
-[01:04:31 INFO]: <许双sb> 你怎么把后路堵了
-[01:04:49 INFO]: <Fang> 我怕漏水
-[01:05:30 INFO]: <Fang> zheli
-[01:05:37 INFO]: <Fang> youyoudongkoule
-[01:11:53 INFO]: <许双sb> 绕了一圈。。。
-[01:13:14 INFO]: <许双sb> ?
-[01:16:16 INFO]: <许双sb> what!?
-[01:21:16 INFO]: <许双sb> what are you doing
-[01:22:09 INFO]: <许双sb> 还有好远
-[01:23:34 INFO]: <许双sb> 晾衣服
-[01:23:41 INFO]: <许双sb> wait
-[01:27:28 INFO]: <许双sb> 咁都嘚！？
-[01:28:24 INFO]: <Fang> 我要回去了，原石太多
-[01:28:42 INFO]: <许双sb> 看地图
-[01:28:49 INFO]: <许双sb> 我这个方向
-[01:28:58 INFO]: <许双sb> 一整条矿脉
-[01:29:06 INFO]: <许双sb> 看得到吗
-[01:29:22 INFO]: <Fang> wocao!!
-[01:30:59 INFO]: <许双sb> here
-[01:31:43 INFO]: <许双sb> 刚好是入口
-[01:31:50 INFO]: <Fang> jjguai
-[01:32:11 INFO]: <许双sb> ...
-[01:34:45 INFO]: <许双sb> run
-[01:35:21 INFO]: <许双sb> 有JJ怪
-[01:35:27 INFO]: <许双sb> 刚刚在你后面
-[01:35:31 INFO]: <Fang> shesita
-[01:37:23 INFO]: Fang was blown up by Creeper
-[01:38:03 INFO]: <Fang> cao!!!
-[01:38:18 INFO]: <Fang> woxianxiale
-[01:38:51 INFO]: Fang lost connection: Internal Exception: net.minecraft.util.io.netty.handler.timeout.ReadTimeoutException
-[01:38:52 INFO]: Fang left the game.
-[01:40:03 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3023ms behind, skipping 60 tick(s)
-[01:59:46 INFO]: 许双sb issued server command: /tp 许双sb 159 68 196
-[01:59:46 INFO]: 许双sb: Teleported 许双sb to 159.50, 68.50, 196.50
-[01:59:46 INFO]: 许双sb issued server command: /tppos 159 68 196
-[02:00:03 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2613ms behind, skipping 52 tick(s)
-[02:09:16 INFO]: mahong[/58.249.112.45:62471] logged in with entity id 1564732 at ([world] 165.36748291935083, 61.0, 195.40401562688345)
-[02:09:32 INFO]: <许双sb> 你居然还没睡
-[02:09:45 INFO]: <mahong> luguo
-[02:09:57 INFO]: <mahong> where are u
-[02:10:05 INFO]: <许双sb> 在家种地
-[02:10:14 INFO]: <许双sb> 快没吃的了
-[02:11:41 INFO]: <mahong> kakakakakka
-[02:13:54 INFO]: Fang[/58.249.112.34:43874] logged in with entity id 1570998 at ([world] 170.5, 61.0, 195.5)
-[02:14:10 INFO]: <许双sb> 泽华来了
-[02:14:30 INFO]: <许双sb> 一听老马进来瞬间加入。。。
-[02:15:39 INFO]: <mahong> cool
-[02:15:49 INFO]: <许双sb> 为啥我的小狗崽掉血了
-[02:16:20 INFO]: <许双sb> what are u doing
-[02:16:20 INFO]: <mahong> zuodengzuanshi
-[02:16:56 INFO]: <mahong> ?!?!?!?!?
-[02:17:27 INFO]: <许双sb> 躺着等
-[02:17:59 INFO]: <许双sb> 卧槽
-[02:18:31 INFO]: <mahong> how to type chinese
-[02:18:49 INFO]: <许双sb> 首先使用输入法
-[02:18:55 INFO]: <许双sb> 然后打字
-[02:19:00 INFO]: <mahong> nani
-[02:19:11 INFO]: <许双sb> 泽华你要干啥
-[02:19:11 INFO]: <mahong> what is he doing
-[02:20:03 INFO]: <mahong> i cant stand that
-[02:20:05 INFO]: <许双sb> 有JJ怪
-[02:20:21 INFO]: <许双sb> 有末影人
-[02:22:14 INFO]: <mahong> 66666
-[02:22:20 INFO]: <许双sb> ???
-[02:22:35 INFO]: <Fang> tiekuang
-[02:25:02 INFO]: <许双sb> 别在这里炸啊
-[02:29:50 INFO]: <许双sb> 老马开车不
-[02:32:04 INFO]: <mahong> sha che
-[02:32:12 INFO]: <许双sb> 矿车
-[02:32:58 INFO]: <mahong> wtf
-[02:33:16 INFO]: <许双sb> 现在没人自带车
-[02:33:18 INFO]: <mahong> you sell me
-[02:33:28 INFO]: <许双sb> 每人
-[02:34:45 INFO]: <mahong> what a long rail
-[02:35:32 INFO]: <mahong> we can connect the cars
-[02:35:56 INFO]: <许双sb> connect个鬼
-[02:36:12 INFO]: <mahong> why not
-[02:36:19 INFO]: <许双sb> 停车啊
-[02:37:26 INFO]: <许双sb> follow me
-[02:39:10 WARN]: mahong moved wrongly!
-[02:39:25 INFO]: <许双sb> ...
-[02:39:30 INFO]: <mahong> fuck
-[02:39:31 INFO]: <Fang> 发现矿洞
-[02:39:37 INFO]: <许双sb> 这边是矿
-[02:39:47 INFO]: <许双sb> 还没开始掏
-[02:39:48 INFO]: <mahong> 666
-[02:40:15 INFO]: <许双sb> 看水里
-[02:40:46 INFO]: <mahong> ?
-[02:40:52 INFO]: <许双sb> 这座岛种树的
-[02:40:58 INFO]: <mahong> why
-[02:41:18 INFO]: <许双sb> 整座岛的树都是我种的
-[02:41:24 INFO]: <mahong> 666
-[02:41:25 INFO]: <许双sb> 缺火把
-[02:41:32 INFO]: <许双sb> 缺木炭
-[02:41:45 INFO]: Fang was slain by Zombie
-[02:41:47 INFO]: <mahong> why choose such a far place
-[02:41:53 INFO]: <许双sb> ...
-[02:41:54 INFO]: <mahong> ...
-[02:41:59 INFO]: <许双sb> 666
-[02:42:29 INFO]: <许双sb> 这下边就是那个大矿洞
-[02:42:44 INFO]: <许双sb> here
-[02:44:40 INFO]: <mahong> i made a naijiu3 fengli3 huoyan1 de sword
-[02:44:59 INFO]: <mahong> just 19 grade fumo
-[02:45:06 INFO]: <许双sb> so?
-[02:46:06 INFO]: <许双sb> 泽华刚才死这里
-[02:46:08 INFO]: <mahong> si gay
-[02:46:34 INFO]: <mahong> isnt he at home?
-[02:46:44 INFO]: <许双sb> wtf
-[02:46:53 INFO]: <mahong> ????
-[02:47:17 INFO]: <许双sb> 没火把
-[02:47:24 INFO]: <许双sb> 泽华把他做了
-[02:48:27 INFO]: <mahong> my bad
-[02:49:18 INFO]: <许双sb> 怎么有狗的声音
-[02:49:56 INFO]: <许双sb> 谁把我的狗放出来了
-[02:49:58 INFO]: <mahong> here
-[02:50:05 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3149ms behind, skipping 62 tick(s)
-[02:50:51 INFO]: <mahong> where is the dog
-[02:51:49 INFO]: <mahong> wtf
-[02:52:15 INFO]: <许双sb> 你插个火把
-[02:52:25 INFO]: <mahong> wait
-[02:55:06 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3033ms behind, skipping 60 tick(s)
-[02:55:25 INFO]: <许双sb> 地图上好多JJ怪
-[02:55:40 INFO]: <mahong> i see nothing
-[02:55:55 INFO]: <许双sb> 看见没
-[02:56:19 INFO]: <mahong> !!!!
-[02:56:28 INFO]: <mahong> what a surprise
-[02:58:56 INFO]: <mahong> what are u doing
-[03:03:06 INFO]: <mahong> holy shit
-[03:03:12 INFO]: <许双sb> 吓得我整个人都跳起来了
-[03:03:43 INFO]: <许双sb> 前面有个大厅
-[03:03:52 INFO]: <许双sb> your head
-[03:04:17 INFO]: <mahong> lead the way
-[03:06:02 INFO]: <许双sb> papapa
-[03:06:10 INFO]: <mahong> silam
-[03:06:27 INFO]: <许双sb> well
-[03:07:31 INFO]: <mahong> yanjiang
-[03:07:51 INFO]: Fang was slain by Spider
-[03:07:58 INFO]: <许双sb> shit
-[03:08:10 INFO]: <mahong> poor dog
-[03:08:11 INFO]: <许双sb> 我的狗啊
-[03:08:41 INFO]: <mahong> by the way i have no tools
-[03:09:14 INFO]: <mahong> golf
-[03:09:17 INFO]: <mahong> gold
-[03:09:20 INFO]: <许双sb> 这么多木棍
-[03:09:32 INFO]: <mahong> the rail burn
-[03:09:59 INFO]: <许双sb> 大厅到了
-[03:10:07 WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3083ms behind, skipping 61 tick(s)
-[03:10:22 INFO]: <许双sb> 准备战斗
-[03:13:13 INFO]: <mahong> i kill a kulipa
-[03:13:28 INFO]: <mahong> ni cha dian si le
-[03:16:10 INFO]: <mahong> what sound
-[03:16:15 INFO]: <许双sb> 末影人
-[03:18:14 INFO]: <mahong> i got a potato
-[03:18:24 INFO]: <许双sb> 还有一个
-[03:18:57 INFO]: <许双sb> 可以撤退了
-[03:19:26 INFO]: <Fang> 好多煤矿
-[03:19:44 INFO]: <Fang> 还有只末影人
-[03:21:14 INFO]: <许双sb> wait
-[03:21:17 INFO]: <许双sb> here
-[03:21:24 INFO]: <许双sb> gold
-[03:22:04 INFO]: <许双sb> 我快没火把了
-[03:22:15 INFO]: <mahong> make some
-[03:22:50 INFO]: <mahong> xiao hei
-[03:23:00 INFO]: Fang lost connection: Disconnected
-[03:23:00 INFO]: Fang left the game.
-[03:23:38 INFO]: <许双sb> 杀
-[03:25:05 INFO]: <许双sb> 你有煤炭是吧
-[03:25:13 INFO]: <许双sb> 做些火把
-[03:25:31 INFO]: <mahong> help me
-[03:25:57 INFO]: <mahong> wo meiyou
-[03:26:16 INFO]: <许双sb> 你只有木板？
-[03:26:26 INFO]: <mahong> yep
-[03:27:48 INFO]: <许双sb> JJ
-[03:29:33 INFO]: <许双sb> go back
-[03:29:34 INFO]: <mahong> find some coal
-[03:30:23 INFO]: <mahong> do you see the spiders?
-[03:30:30 INFO]: <许双sb> ?
-[03:30:40 INFO]: <mahong> behind us
-[03:30:48 INFO]: <mahong> there must be a cage
-[03:30:58 INFO]: <许双sb> 给我4个木棍
-[03:31:56 INFO]: <许双sb> 在下面
-[03:35:40 INFO]: <许双sb> go back
-[03:37:30 INFO]: <mahong> we are lost
-[03:37:42 INFO]: <许双sb> mei you a
-[03:41:13 INFO]: <mahong> 66666
-[03:42:40 WARN]: mahong moved wrongly!
-[03:45:13 INFO]: <许双sb> 卧槽都4点了
-[03:45:20 INFO]: <许双sb> 睡
-[03:45:24 INFO]: 许双sb lost connection: Disconnected
-[03:45:24 INFO]: 许双sb left the game.
-[03:45:24 INFO]: <mahong> cai fa xain
-[03:47:46 INFO]: mahong lost connection: Disconnected
-[03:47:46 INFO]: mahong left the game.
-[00:31:36 INFO]: Stopping server
-[00:31:37 INFO]: Saving players
-[00:31:37 INFO]: Saving worlds
-[00:31:37 INFO]: Saving chunks for level 'world'/Overworld
+[01:18:19 INFO]: Default game type: SURVIVAL
+[01:18:19 INFO]: Generating keypair
+[01:18:20 INFO]: Starting Minecraft server on *:25565
+[01:18:20 INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.3-14-g8f8716c-b3042jnks (MC: 1.7.5) (Implementing API version 1.7.5-R0.1-SNAPSHOT)
+[01:18:21 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:18:21 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:18:21 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:18:21 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:18:21 INFO]: Preparing level "false"
+[01:18:21 INFO]: Preparing start region for level 0 (Seed: 61684109878805716)
+[01:18:22 WARN]: Exception in thread "Thread-7" 
+[01:18:22 WARN]: org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+[01:18:22 WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:180)
+[01:18:22 WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:755)
+[01:18:22 WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:694)
+[01:18:22 WARN]: 	at org.bukkit.craftbukkit.v1_7_R2.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:53)
+[01:18:22 WARN]: 	at org.bukkit.craftbukkit.v1_7_R2.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:30)
+[01:18:22 WARN]: 	at org.bukkit.craftbukkit.v1_7_R2.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+[01:18:22 WARN]: Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+[01:18:22 WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+[01:18:22 WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+[01:18:22 WARN]: 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:168)
+[01:18:22 WARN]: 	... 5 more
+[01:18:22 INFO]: Preparing spawn area: 0%
+[01:18:23 INFO]: Preparing spawn area: 11%
+[01:18:24 INFO]: Preparing spawn area: 42%
+[01:18:25 INFO]: Preparing spawn area: 89%
+[01:18:25 INFO]: Preparing start region for level 1 (Seed: 61684109878805716)
+[01:18:26 INFO]: Preparing spawn area: 41%
+[01:18:27 INFO]: Preparing start region for level 2 (Seed: 2331610942913408221)
+[01:18:28 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:18:28 INFO]: Done (7.074s)! For help, type "help" or "?"
+[01:19:52 INFO]: 许双sb[/58.249.112.22:51572] logged in with entity id 339 at ([world] -776.5261130074148, 66.0, 98.73030680284049)
+[01:19:55 INFO]: <许双sb> Damage Indicators was unable to check for updates!
+[01:20:32 INFO]: 许双sb issued server command: /gamerule keepInventory T
+[01:20:32 INFO]: 许双sb: Game rule keepInventory has been set to: T
+[01:26:38 INFO]: 许双sb issued server command: /tp 许双sb 159 68 196
+[01:26:38 INFO]: 许双sb: Teleported 许双sb to 159.50, 68.50, 196.50
+[01:26:38 INFO]: 许双sb issued server command: /tppos 159 68 196
+[01:35:15 INFO]: 许双sb lost connection: Disconnected
+[01:35:15 INFO]: 许双sb left the game.
+[00:10:19 INFO]: Fang[/58.249.112.34:48897] logged in with entity id 20121 at ([world] 170.6428979816521, 61.0, 195.36987796897265)
+[00:14:10 INFO]: mahong[/58.249.112.45:59675] logged in with entity id 23701 at ([world] 161.44292064932455, 68.0, 203.45497895592786)
+[00:14:27 INFO]: <mahong> weirun juran buzai
+[00:16:04 INFO]: <Fang> nizaina?
+[00:16:16 INFO]: <mahong> xaimian
+[00:16:17 INFO]: <Fang> weirun xizao qule
+[00:17:26 INFO]: <mahong> rady?
+[00:17:35 INFO]: <mahong> haishi deng weirun?
+[00:17:39 INFO]: <Fang> ok
+[00:18:21 INFO]: <Fang> niyou huoba me
+[00:18:30 INFO]: <mahong> wo wang le
+[00:18:43 INFO]: <mahong> i've forgottrn
+[00:18:46 INFO]: <Fang> suanle
+[00:18:56 INFO]: <mahong> wait
+[00:19:02 INFO]: <mahong> i go bcak
+[00:20:59 INFO]: <Fang> xialaia
+[00:21:13 INFO]: <mahong> fuck
+[00:21:25 INFO]: <mahong> i lost half of my life
+[00:21:54 INFO]: <mahong> lead the way
+[00:22:12 INFO]: <mahong> run
+[00:22:48 INFO]: <Fang> cao!
+[00:22:53 INFO]: <mahong> ?
+[00:22:59 INFO]: <Fang> nvwu douyou
+[00:23:38 INFO]: <mahong> whats wrong
+[00:23:46 INFO]: <Fang> zhunbei fanji
+[00:24:57 INFO]: <mahong> wocao
+[00:25:40 INFO]: <Fang> shenmegui
+[00:26:19 INFO]: <mahong> fuck
+[00:26:33 INFO]: <mahong> here may be some diamonds
+[00:29:12 INFO]: <mahong> i found it!
+[00:29:16 INFO]: <mahong> come here
+[00:30:46 INFO]: <Fang> zou
+[00:30:46 INFO]: <mahong> lets go
+[00:31:20 INFO]: <mahong> lead the way
+[00:31:40 INFO]: <mahong> here
+[00:32:56 INFO]: <mahong> bug?
+[00:36:52 INFO]: Fang was slain by Zombie
+[00:37:01 INFO]: <mahong> oh no
+[00:37:06 INFO]: <Fang> cao
+[00:37:12 INFO]: <mahong> i will wait here
+[00:37:12 INFO]: <Fang> wodongxiquanmeile
+[00:37:31 INFO]: <mahong> ?!
+[00:39:59 INFO]: Fang was blown up by Creeper
+[00:40:08 INFO]: <mahong> stupid
+[00:40:21 INFO]: <mahong> you should bring a bucket of water
+[00:40:45 INFO]: <Fang> shuohaodesiwangbudiaolune !
+[00:40:53 INFO]: <mahong> bug
+[00:41:01 INFO]: 许双sb[/58.249.112.22:38011] logged in with entity id 51230 at ([world] 151.98750001192093, 71.5, 200.69999998807907)
+[00:41:01 INFO]: <mahong> it must be bug
+[00:41:04 INFO]: <许双sb> Damage Indicators was unable to check for updates!
+[00:41:19 INFO]: <mahong> come here with zehua
+[00:41:26 INFO]: <许双sb> 老马居然在
+[00:41:32 INFO]: <许双sb> 在哪里呢
+[00:42:33 INFO]: <许双sb> where are you
+[00:42:47 INFO]: <mahong> behind the house
+[00:43:16 INFO]: Fang was slain by Zombie
+[00:43:23 INFO]: <许双sb> ...
+[00:43:26 INFO]: <Fang> cao
+[00:43:38 INFO]: <Fang> laoma ni huzhewo xinme
+[00:44:07 INFO]: <mahong> bring weirun here
+[00:44:19 INFO]: <Fang> 伟润，我死了掉东西了
+[00:44:40 INFO]: <许双sb> nani
+[00:44:51 INFO]: 许双sb issued server command: /gamerule keepInventory true
+[00:44:51 INFO]: 许双sb: Game rule keepInventory has been set to: true
+[00:45:17 INFO]: <mahong> i want to pee
+[00:45:21 INFO]: <mahong> hurry up
+[00:45:56 INFO]: <mahong> where is weirun
+[00:46:09 INFO]: <mahong> you should bring him here
+[00:46:33 INFO]: <Fang> 我捡东西啊
+[00:47:26 INFO]: <mahong> you should bring some ladders
+[00:47:37 INFO]: <许双sb> 到底在哪
+[00:47:41 INFO]: <mahong> wait
+[00:47:44 INFO]: <许双sb> 我跟泽华跳下来了
+[00:47:53 INFO]: <许双sb> 但是跟丢了
+[00:48:17 INFO]: <mahong> we are coming
+[00:48:39 INFO]: <许双sb> 在跳下来这里
+[00:50:22 INFO]: <mahong> zehua qujie weirun
+[00:50:23 INFO]: <Fang> milule
+[00:52:08 INFO]: <mahong> where is the way?!?!?!?!
+[00:53:57 INFO]: <mahong> where are you weirun
+[00:54:08 INFO]: <许双sb> ru kou
+[00:54:27 INFO]: <Fang> cao!!
+[00:54:34 INFO]: <Fang> xiaohei
+[00:54:34 INFO]: <mahong> coordinate
+[00:54:50 INFO]: <许双sb> 家后面
+[00:54:59 INFO]: <Fang> laoma
+[00:55:03 INFO]: <Fang> youxiaohei
+[00:55:05 INFO]: <许双sb> 241 70 186
+[00:55:12 INFO]: <mahong> its ok
+[00:55:40 INFO]: <许双sb> 我没火把了
+[00:57:01 INFO]: <mahong> theres bug
+[00:57:30 INFO]: <Fang> laoma
+[00:59:25 INFO]: <Fang> 老马你个贱人丢下我跑了！
+[00:59:25 INFO]: <许双sb> 你在看啥
+[00:59:29 INFO]: <mahong> hang on
+[00:59:37 INFO]: <mahong> weirun guolai
+[01:00:15 INFO]: <许双sb> 你为啥一定要跳水
+[01:00:27 INFO]: <mahong> weirun ni zai nali
+[01:00:36 INFO]: <许双sb> zehua zheli
+[01:00:42 INFO]: <mahong> fuck
+[01:00:54 INFO]: <mahong> i look for you
+[01:00:56 INFO]: <Fang> 这个洞里有bug
+[01:01:05 INFO]: <许双sb> 啥
+[01:01:09 INFO]: <mahong> deng wo
+[01:01:14 INFO]: <许双sb> 死亡掉落
+[01:01:16 INFO]: <Fang> 有些地方插不了火把
+[01:01:27 INFO]: <许双sb> for example?
+[01:01:30 INFO]: <Fang> 经验值归零
+[01:01:51 INFO]: <许双sb> 死了很正常
+[01:02:01 INFO]: <mahong> lets rock
+[01:02:05 INFO]: <许双sb> 老马你的装备呢
+[01:02:11 INFO]: <mahong> we've find 7 diamonds
+[01:02:24 INFO]: <mahong> shit
+[01:02:40 INFO]: <mahong> they are broken
+[01:03:01 INFO]: <Fang> weirun
+[01:03:03 INFO]: <许双sb> 等等你要死
+[01:03:08 INFO]: <许双sb> 先等一下
+[01:03:09 INFO]: <Fang> follow me
+[01:03:31 INFO]: <Fang> 我现在很脆的
+[01:03:33 INFO]: <mahong> its ok
+[01:03:40 INFO]: <许双sb> 老马才脆
+[01:03:44 INFO]: <mahong> i have a magic sword!
+[01:03:48 INFO]: <Fang> 一碰就死，血量少
+[01:04:07 INFO]: <mahong> lets go
+[01:04:13 INFO]: <Fang> 老马你个贱人卖队友，我刚刚才挑了俩僵尸
+[01:04:20 INFO]: <mahong> wo qu zhao weirun
+[01:04:36 INFO]: <mahong> shui zhi dao ta yi jing guo lai le
+[01:06:49 INFO]: <许双sb> what
+[01:06:56 INFO]: <mahong> nani
+[01:07:16 INFO]: <许双sb> 这是骷髅兵吗
+[01:07:24 INFO]: <mahong> unbelivable
+[01:07:44 INFO]: <mahong> where are you going zehua
+[01:14:37 INFO]: <mahong> the bug place
+[01:14:47 INFO]: <Fang> jiaoweirun
+[01:14:54 INFO]: <mahong> nani
+[01:15:02 INFO]: <mahong> ?!?!?!??!!?
+[01:15:05 INFO]: <许双sb> 锁链头盔也
+[01:15:17 INFO]: <mahong> nani
+[01:15:22 INFO]: <Fang> weiru
+[01:15:27 INFO]: <Fang> you bug
+[01:16:07 INFO]: <mahong> only weirun can cha huo ba
+[01:16:17 INFO]: <mahong> only weirun can wa shi you
+[01:16:19 INFO]: <许双sb> sha
+[01:16:44 INFO]: <许双sb> 你们都插不了！？
+[01:16:46 INFO]: <Fang> 这里只有你才能插火把
+[01:16:48 INFO]: <mahong> yep
+[01:16:56 INFO]: <许双sb> 什么鬼
+[01:17:03 INFO]: <许双sb> 这是我的世界？！
+[01:17:05 INFO]: <mahong> you are boss
+[01:17:21 INFO]: <mahong> bu neng wa shi tou
+[01:17:22 INFO]: <Fang> weirun
+[01:17:27 INFO]: <Fang> gebi
+[01:17:46 INFO]: <许双sb> 目瞪口呆
+[01:17:54 INFO]: <Fang> wakaiqiangbi
+[01:17:58 INFO]: <许双sb> 老马呢
+[01:18:00 INFO]: <Fang> nabianyoudongxi
+[01:18:12 INFO]: <mahong> neither
+[01:18:37 INFO]: <Fang> fangxiangcuole
+[01:19:01 INFO]: <Fang> zuobian a
+[01:19:02 INFO]: <许双sb> duile
+[01:19:11 INFO]: <许双sb> up
+[01:19:41 INFO]: <mahong> whatever you gonna do, do it now
+[01:20:07 INFO]: <许双sb> qie
+[01:20:30 INFO]: <许双sb> 所以你们死亡掉落？
+[01:20:50 INFO]: <许双sb> 老马可以插火把啊
+[01:20:57 INFO]: <mahong> only that place
+[01:20:59 INFO]: <Fang> zhelikeyi
+[01:22:09 INFO]: <mahong> diamond!
+[01:22:12 INFO]: <mahong> come here
+[01:22:33 INFO]: Fang has just earned the achievement [DIAMONDS!]
+[01:22:38 INFO]: <mahong> please call me diamond expert
+[01:22:56 INFO]: <许双sb> 泽华你怎么直接挖
+[01:23:09 INFO]: <许双sb> 万一下面是岩浆就没了
+[01:23:26 INFO]: <Fang> o
+[01:23:30 INFO]: <Fang> fangxin
+[01:23:39 INFO]: <mahong> what now
+[01:25:43 INFO]: <mahong> there
+[01:25:57 INFO]: <许双sb> zehuane
+[01:26:13 INFO]: <mahong> @Fang
+[01:26:17 INFO]: Fang lost connection: Internal Exception: java.io.IOException: Connection reset by peer
+[01:26:17 INFO]: Fang left the game.
+[01:26:24 INFO]: <mahong> ?!
+[01:26:31 INFO]: <许双sb> 他洗澡
+[01:27:21 INFO]: <许双sb> wait
+[01:27:26 INFO]: <许双sb> 我晾衣服
+[01:32:52 INFO]: <许双sb> 吓死宝宝
+[01:33:07 INFO]: <许双sb> 差点死了
+[01:34:50 INFO]: <mahong> big diamond
+[01:35:53 INFO]: <许双sb> 怎么办
+[01:37:34 INFO]: <mahong> what are you doing
+[01:38:01 INFO]: mahong tried to swim in lava
+[01:38:13 INFO]: <许双sb> 晚了一步
+[01:38:15 INFO]: <mahong> zuan shi hai zai
+[01:40:47 INFO]: <mahong> cool
+[01:42:01 INFO]: <mahong> gold
+[01:42:20 INFO]: <许双sb> 金子有卵用
+[01:42:30 INFO]: <mahong> chang pian ji
+[01:42:52 INFO]: <许双sb> 快没火把了
+[01:43:15 INFO]: <许双sb> ?
+[01:43:25 INFO]: <mahong> ?
+[01:43:32 INFO]: <mahong> bug?
+[01:43:38 INFO]: <许双sb> 我傻了
+[01:44:15 INFO]: Fang[/58.249.112.34:41896] logged in with entity id 118507 at ([world] 253.69999998807907, 60.0, 190.30000001192087)
+[01:44:31 INFO]: <许双sb> what?
+[01:46:12 INFO]: <mahong> zehua come here
+[01:46:53 INFO]: <Fang> wo huitang jia
+[01:47:00 INFO]: <mahong> ok
+[01:47:06 INFO]: <许双sb> sha
+[01:47:16 INFO]: <许双sb> 回唐家！？
+[01:47:23 INFO]: <mahong> ?!?!?!
+[01:47:54 INFO]: <mahong> gold
+[01:51:13 INFO]: <mahong> nothing secial
+[01:51:18 INFO]: <许双sb> gold
+[01:52:12 INFO]: <许双sb> here
+[01:52:40 INFO]: <mahong> ?
+[01:53:13 INFO]: <许双sb> ready?
+[01:53:19 INFO]: <mahong> yep
+[02:04:34 INFO]: <许双sb> 小鸡鸡怪
+[02:06:04 INFO]: <许双sb> 下面
+[02:07:34 INFO]: <Fang> woc
+[02:07:44 INFO]: <Fang> 3 zhi xiaohei
+[02:08:06 INFO]: <许双sb> go
+[02:11:22 INFO]: <许双sb> no water now
+[02:12:41 INFO]: <mahong> suolian toukui liuzhe a
+[02:13:55 INFO]: mahong was slain by Zombie
+[02:14:03 INFO]: <mahong> shit
+[02:14:33 INFO]: <许双sb> what happen
+[02:17:27 INFO]: <许双sb> 突然炸了只JJ怪吓死爸爸
+[02:17:36 INFO]: <许双sb> 一滴血都不掉
+[02:19:06 INFO]: <mahong> milule
+[02:19:14 INFO]: <许双sb> ...
+[02:19:25 INFO]: <mahong> wait
+[02:19:29 INFO]: <mahong> 2 minute
+[02:19:37 INFO]: <mahong> wo wa guo lai
+[02:19:37 INFO]: <许双sb> 附近一堆JJ怪
+[02:21:40 INFO]: <许双sb> 镐子都没了
+[02:22:13 INFO]: <mahong> ni zai na
+[02:22:45 INFO]: <mahong> yao gao zi ma
+[02:22:57 INFO]: <许双sb> mei
+[02:23:18 INFO]: <许双sb> huoba yemei
+[02:24:47 INFO]: <许双sb> 火把有没有
+[02:24:58 INFO]: <许双sb> ...
+[02:27:48 INFO]: <许双sb> what
+[02:28:27 INFO]: <许双sb> 宝箱
+[02:28:48 INFO]: <mahong> san zhang chang pian
+[02:28:53 INFO]: <mahong> shuang
+[02:29:02 INFO]: <许双sb> 你带桶
+[02:30:51 INFO]: <许双sb> 你干嘛
+[02:31:02 INFO]: <许双sb> 刷怪笼被我挖了
+[02:34:55 INFO]: <Fang> 艹！！刷怪笼
+[02:35:17 INFO]: <许双sb> 我被卡住了
+[02:35:25 INFO]: <许双sb> help me
+[02:36:34 INFO]: <mahong> na li you shua guai long
+[02:37:05 INFO]: <Fang> wobiaojile
+[02:38:51 INFO]: <许双sb> 突然就卡了
+[02:40:32 INFO]: <许双sb> 路宝石
+[02:40:39 INFO]: <许双sb> 绿宝石
+[02:40:51 INFO]: <mahong> hao yan li
+[02:42:02 INFO]: <许双sb> 绿宝石能干吗
+[02:42:09 INFO]: <mahong> huan dong xi?
+[02:43:19 INFO]: <mahong> ni zai na?
+[02:53:08 INFO]: <许双sb> 回去了
+[02:54:38 INFO]: <许双sb> 明天8点还要值班
+[02:54:39 INFO]: <mahong> wocao
+[02:58:34 INFO]: <许双sb> 锁链头盔怎么合成
+[02:58:41 INFO]: <mahong> huo
+[02:59:48 INFO]: <许双sb> 卧槽钻石呢
+[03:00:00 INFO]: <mahong> fang hui qu le
+[03:00:34 INFO]: <许双sb> 金子好像不能做啥
+[03:00:46 INFO]: <Fang> shenmeshengying
+[03:01:00 INFO]: <mahong> musci
+[03:01:00 INFO]: <许双sb> 老马
+[03:01:06 INFO]: <mahong> music
+[03:01:13 INFO]: <Fang> FUCKQ
+[03:01:19 INFO]: <许双sb> 血条上面有提示的
+[03:01:22 INFO]: <Fang> xiasiren
+[03:01:33 INFO]: <许双sb> 233
+[03:02:49 INFO]: <许双sb> sleep
+[03:03:16 INFO]: <许双sb> 锁链头盔怎么修复
+[03:03:23 INFO]: <Fang> tiekuai
+[03:04:24 INFO]: <Fang> woxiale
+[03:04:24 INFO]: <许双sb> 卧槽还要3个铁锭
+[03:04:58 INFO]: Fang lost connection: Disconnected
+[03:04:58 INFO]: Fang left the game.
+[03:06:03 INFO]: <许双sb> 唱片机在哪呢
+[03:09:55 INFO]: <许双sb> 朕下了
+[03:10:16 INFO]: <许双sb> 怎么有只鸡在车上
+[03:10:35 INFO]: <mahong> 666
+[03:10:40 INFO]: 许双sb lost connection: Disconnected
+[03:10:40 INFO]: 许双sb left the game.
+[03:30:23 INFO]: mahong lost connection: Disconnected
+[03:30:23 INFO]: mahong left the game.
+[10:28:41 INFO]: Fang[/58.249.112.34:33716] logged in with entity id 307107 at ([world] 170.69999998807907, 61.0, 197.27216114060633)
+[10:28:47 INFO]: Fang lost connection: Disconnected
+[10:28:47 INFO]: Fang left the game.
+[12:51:35 INFO]: Fang[/58.249.112.34:31311] logged in with entity id 307999 at ([world] 170.69999998807907, 61.0, 197.27216114060633)
+[13:51:38 INFO]: Fang tried to swim in lava to escape Skeleton
+[13:54:13 INFO]: Fang lost connection: Disconnected
+[13:54:13 INFO]: Fang left the game.
+[00:37:07 INFO]: Fang[/58.249.112.34:20541] logged in with entity id 373916 at ([world] 164.17328689114893, 68.0, 202.2290120324626)
+[00:48:34 INFO]: Fang lost connection: Internal Exception: net.minecraft.util.io.netty.handler.timeout.ReadTimeoutException
+[00:48:34 INFO]: Fang left the game.
